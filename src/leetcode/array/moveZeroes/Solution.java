@@ -4,6 +4,7 @@ public class Solution {
     public static void main(String[] args) {
         int[] test = {0,1,0,3,12};
         moveZeroes(test);
+        System.out.println(test);
     }
     public static void moveZeroes(int[] nums) {
         boolean move = false;
